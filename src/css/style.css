@@ -1,0 +1,240 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: 'PT Sans', sans-serif;
+  margin: 0px;
+  padding: 0px;
+  color: blue; }
+
+.center {
+  width: 980px;
+  height: 100%;
+  margin: 0px auto; }
+
+header {
+  width: 100%;
+  height: 60px;
+  background-color: #fff; }
+  header a {
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    width: 100%;
+    line-height: 60px;
+    color: #000; }
+  header a:hover {
+    color: #399999; }
+  header ul {
+    width: 100%;
+    height: 100%;
+    list-style: none; }
+    header ul li {
+      width: 16%;
+      display: block;
+      float: left; }
+
+.some-beautiful {
+  width: 100%;
+  height: 450px;
+  margin-bottom: 50px;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 7px; }
+  .some-beautiful p {
+    color: #fff;
+    text-align: center;
+    font-size: 40px;
+    width: 100%;
+    padding-top: 20%; }
+
+.about-us {
+  border: 1px solid transparent;
+  width: 980px;
+  height: 200px;
+  background: #fff;
+  box-shadow: inset 0px 0px 70px rgba(0, 0, 0, 0.5);
+  margin: 0 auto;
+  border-radius: 7px; }
+  .about-us p {
+    margin: 40px auto 0px;
+    width: 80%;
+    height: 100%;
+    text-align: center;
+    color: #333; }
+
+.statistic {
+  width: 100%;
+  height: 200px;
+  background-color: #b4b4b4;
+  border-radius: 7px;
+  margin: 80px auto 80px; }
+  .statistic ul {
+    width: 100%;
+    height: 100%;
+    list-style: none; }
+    .statistic ul li {
+      width: 25%;
+      height: 100%;
+      display: block;
+      float: left; }
+      .statistic ul li p {
+        text-align: center;
+        height: auto;
+        margin: 65px 0px;
+        font-family: 'PT Sans', sans-serif;
+        font-size: 35px;
+        color: #fff; }
+        .statistic ul li p span:nth-of-type(2) {
+          font-size: 25px; }
+
+.advantages {
+  width: 100%;
+  height: 400px;
+  margin: 30px auto 80px; }
+  .advantages ul {
+    list-style: none;
+    width: 100%;
+    height: 100%; }
+    .advantages ul li {
+      width: 47%;
+      height: 130px;
+      display: block;
+      float: left;
+      margin-left: 6%; }
+      .advantages ul li p {
+        width: 40%;
+        height: auto;
+        text-align: center;
+        margin: 30px auto 0px; }
+    .advantages ul li:nth-of-type(2) img,
+    .advantages ul li:nth-of-type(4) img,
+    .advantages ul li:nth-of-type(6) img {
+      float: left; }
+    .advantages ul li:nth-of-type(1),
+    .advantages ul li:nth-of-type(3),
+    .advantages ul li:nth-of-type(5) {
+      margin-left: 0px; }
+      .advantages ul li:nth-of-type(1) img,
+      .advantages ul li:nth-of-type(3) img,
+      .advantages ul li:nth-of-type(5) img {
+        float: right; }
+
+.catalog {
+  width: 100%;
+  height: 1800px;
+  border: 1px solid transparent; }
+  .catalog ul {
+    list-style: none;
+    width: 100%;
+    height: auto; }
+    .catalog ul li {
+      width: 49%;
+      height: 402px;
+      display: block;
+      float: left;
+      position: relative;
+      margin-bottom: 60px;
+      margin-left: 2%;
+      position: relative; }
+      .catalog ul li p {
+        width: 100%;
+        height: auto;
+        position: absolute;
+        text-align: center;
+        bottom: 30px; }
+      .catalog ul li a {
+        width: 480px;
+        height: 402px;
+        display: block; }
+        .catalog ul li a img {
+          position: absolute;
+          left: 50%;
+          top: 20px;
+          margin-left: -131px;
+          cursor: pointer; }
+    .catalog ul li:nth-of-type(odd) {
+      margin-left: 0px; }
+    .catalog ul li:before {
+      content: '';
+      display: block;
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      right: 0px;
+      bottom: 0px;
+      background-color: rgba(0, 0, 0, 0.3);
+      transition: opacity .65s ease-in-out;
+      opacity: 1;
+      border-radius: 7px; }
+    .catalog ul li:hover::before {
+      opacity: 0; }
+
+.roadtrips {
+  display: none; }
+
+.more-things {
+  width: 100%;
+  height: 300px; }
+  .more-things p {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px; }
+  .more-things ul {
+    list-style: none;
+    width: 890px;
+    height: 160px;
+    margin: 0px auto; }
+    .more-things ul li {
+      display: block;
+      float: left;
+      width: 142px;
+      height: 115px;
+      margin-right: 45px;
+      background-color: rgba(0, 0, 0, 0.3);
+      border-radius: 7px; }
+      .more-things ul li p {
+        width: 100%;
+        margin-top: 50px;
+        color: #fff; }
+    .more-things ul li:nth-of-type(1),
+    .more-things ul li:nth-of-type(5) {
+      margin-top: 4; }
+    .more-things ul li:nth-of-type(2),
+    .more-things ul li:nth-of-type(4) {
+      margin-top: 35px; }
+    .more-things ul li:nth-of-type(3) {
+      margin-top: 50px; }
+    .more-things ul li:nth-of-type(5) {
+      margin-right: 0px; }
+
+.contacts {
+  width: 100%;
+  height: 250px;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 7px;
+  margin-bottom: 25px; }
+  .contacts .adress {
+    width: 350px;
+    margin: 0px auto;
+    padding-top: 90px; }
+    .contacts .adress p {
+      width: 100%;
+      height: auto;
+      text-align: center;
+      font-size: 35px;
+      color: #fff; }
+
+footer {
+  width: 100%;
+  height: 50px;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 7px; }
+  footer p {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-size: 35px;
+    color: #fff; }
+
+/*# sourceMappingURL=style.css.map */

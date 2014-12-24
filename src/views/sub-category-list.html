@@ -1,0 +1,6 @@
+<ul>
+	<li ng-repeat="subCategory in subCategoryList | filter: query">
+		<a ng-href="#/{{currentCategory}}/{{subCategory.id}}" ng-click="getProductsInfo(subCategory.id,currentCategory)" class="subCategory-id">{{subCategory.id}}</a>
+		<p>{{subCategory.quantity}}</p>
+	</li>
+</ul>

@@ -1,0 +1,17 @@
+[
+    {
+        "id": "phones", 
+        "quantity": 10000,
+        "description":"short description about x1 model characteristics"
+    },
+    {
+        "id": "tv", 
+        "quantity": 2000,
+        "description":"short description about x1 model characteristics"
+    },
+    {
+        "id": "pc", 
+        "quantity": 1000,
+        "description":"short description about x1 model characteristics"
+    }        
+]

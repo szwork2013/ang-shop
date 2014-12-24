@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app" >
+	<head>
+		<meta charset="UTF-8">
+		<title>i-shop</title>
+		<link rel="stylesheet" type='text/css' href="css/default.css">
+		
+<!-- 		<link rel="stylesheet" type='text/css' href="css/cart.css">
+		<link rel="stylesheet" type='text/css' href="css/catalog.css">
+		<link rel="stylesheet" type='text/css' href="css/contacts.css">
+		<link rel="stylesheet" type='text/css' href="css/login.css">
+		<link rel="stylesheet" type='text/css' href="css/main.css">
+		<link rel="stylesheet" type='text/css' href="css/registration.css"> -->
+
+		<script src="js/angular.js" type="text/javascript"></script>
+		<script src="js/angular-route.js" type="text/javascript"></script>
+	    <script src="js/angular-route-styles.js" type="text/javascript"></script>	 
+		<script src="js/angular-route-segment.js" type="text/javascript"></script>
+
+
+	    <script src="js/ang-app.js" type="text/javascript"></script>	   
+	    <script src="js/ang-controllers.js" type="text/javascript"></script>	   
+	</head>
+	<body ng-controller='detailCtrl'>
+		<div class="center" >
+			<nav>
+			<!-- ng-click="getCategorysInfo()"  ng-click="getProductsInfo()"-->
+				<ul>
+					<li><a ng-href="#/main"  >main</a></li>
+					<!-- <li><a ng-href="#/catalog"  >catalog</a></li> -->
+					<li><a ng-href="#/login">login</a></li>
+					<li><a ng-href="#/registration">register</a></li>				
+					<!-- <li><a ng-href="#/contacts">contacts</a></li> -->
+					<li><a ng-href="#/cart">cart</a></li>
+				</ul>
+			</nav>
+			<div class="default-header">
+				<a class="logo" href="#/main">some awesome logo</a>
+				<ul>
+					<li><a href="#/cart"><img src="images/cart.png" height="32" width="32" alt=""></a></li>
+					<li><a href="#/profile"><img src="images/user.png" height="32" width="32" alt=""></a></li>
+				</ul>
+				<input type="text" ng-model="query" placeholder="Search">
+			</div>			
+			<div  ng-view></div>
+		</div>
+	</body>
+</html>

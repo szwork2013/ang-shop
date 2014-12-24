@@ -1,0 +1,20 @@
+<ul class="shopping-cart">
+	<li ng-repeat="product in carts | filter:query">
+		<img ng-src="{{product.imgUrl}}">
+		<a href="/{{product.id}}" class="id">{{product.id}}</a>
+		<p class="quantity">quantity: <input type="number" ng-model="product.quantity"></p>
+		<p class="cost">{{summary(product.quantity,product.cost) | currency}}</p>
+		<a class="remove-item"href="" ng-click="removeItem($index)">Remove</a>
+	</li>
+	<p class="total">Total:{{total() | currency}}</p>
+	<div class="link-wraper">
+		<a class="input-button" href="#/main">Continue shoping</a>
+		<a class="input-button" href="#/order">Proceed to checkout</a>
+	</div>
+</ul>
+<div class="basket-summary">
+	<p>Bascket summary <br><span>({{carts.length}} items)</span></p>
+	<hr width="80" size="2" color="#444"><br>
+	<p>Total:{{total() | currency}}</p>
+	<a class="input-button"href="#/order" >Proceed to checkout</a>
+</div>

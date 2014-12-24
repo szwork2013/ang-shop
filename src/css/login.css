@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+form {
+  width: 300px;
+  height: 270px;
+  border: 3px solid darkgrey;
+  border-radius: 5px;
+  position: relative;
+  margin: 150px auto 0px; }
+  form label, form a {
+    color: #444;
+    font-size: 20px; }
+  form .close-link {
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    text-decoration: none;
+    line-height: 20px;
+    position: absolute;
+    right: -2px;
+    top: -2px;
+    border: 3px solid darkgrey;
+    color: grey; }
+  form p {
+    width: 200px;
+    margin: 25px 0px 0px 50px;
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0.72); }
+  form input {
+    cursor: pointer;
+    margin: 10px 0px 10px 50px; }
+  form input[type="text"] {
+    width: 200px;
+    height: 30px;
+    display: block;
+    margin: 10px 0px 10px 50px;
+    box-sizing: border-box;
+    padding-left: 10px; }
+  form label {
+    margin: 0px 0px 0px 10px; }
+  form > label:hover {
+    cursor: pointer; }
+  form .log-in {
+    width: 200px;
+    height: 30px;
+    line-height: 28px;
+    display: block;
+    margin: 10px 0px 10px 50px;
+    box-sizing: border-box;
+    text-align: center;
+    text-decoration: none;
+    background-color: lightgrey;
+    border: 1px solid darkgrey;
+    border-radius: 15px; }
+  form .register {
+    margin: 3px 16px 0px 0px;
+    float: right;
+    color: darkblue; }
+
+/*# sourceMappingURL=login.css.map */

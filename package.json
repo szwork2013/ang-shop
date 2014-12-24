@@ -1,0 +1,29 @@
+{
+  "name": "i-shop",
+  "version": "0.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "",
+  "license": "BSD-2-Clause",
+  "dependecies": {
+    "express": "~4.10.4"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-contrib-sass": "~0.8.1",
+    "grunt-contrib-watch": "~0.6.1",
+    "gulp": "~3.8.10",
+    "gulp-livereload": "~2.1.1",
+    "gulp-sass": "~1.1.0",
+    "morgan": "^1.5.0",
+    "tiny-lr": "~0.1.4"
+  },
+  "subdomain": "lbp14-i-shop",
+  "engines": {
+    "node": "0.10.x"
+  }
+}

@@ -1,0 +1,10 @@
+
+<div class="category-list-wraper">
+	<ul class="category-list">
+		<li ng-repeat="category in categorysInfo | filter: query">
+			<a ng-href="#/{{category.id}}" ng-click="getSubCategoryList(category.id)"><img ng-src="{{category.imgUrl}}"></a>
+			<a ng-href="#/{{category.id}}" ng-click="getSubCategoryList(category.id)" class="category-id">
+			{{category.id}}</a>
+		</li>
+	</ul>
+</div>

@@ -1,0 +1,17 @@
+[
+    {
+        "id": "nike", 
+        "quantity": 10000,
+        "description":"short description about x1 model characteristics"
+    },
+    {
+        "id": "adidas", 
+        "quantity": 2000,
+        "description":"short description about x1 model characteristics"
+    },
+    {
+        "id": "puma", 
+        "quantity": 1000,
+        "description":"short description about x1 model characteristics"
+    }        
+]

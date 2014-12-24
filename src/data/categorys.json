@@ -1,0 +1,22 @@
+[
+    {
+        "id": "shoes", 
+        "imgUrl":"http://placehold.it/100x100"
+    }, 
+    {
+        "id": "electronics", 
+        "imgUrl":"http://placehold.it/100x100"        
+    },
+    {
+        "id": "accessories", 
+        "imgUrl":"http://placehold.it/100x100"
+    }, 
+    {
+        "id": "fashion", 
+        "imgUrl":"http://placehold.it/100x100"        
+    },
+    {
+        "id": "furniture", 
+        "imgUrl":"http://placehold.it/100x100"
+    }
+]

@@ -1,0 +1,12 @@
+<div class="center1">
+<a class="change-view" href="" ng-click="changeView()">switch view</a>
+	<ul ng-class="view">
+        <li ng-repeat="product in productsInfo | filter:query">
+        	<img ng-src="{{product.imgUrl}}">
+        	<a href="#/{{product.id}}" class="prod-id">{{product.id}}</a>
+        	<p class="prod-cost">Price:{{product.cost | currency}}</p>
+            <p class="prod-descript">{{product.description}}</p>
+            <a class="add-to-cart" ng-click=";addItem(product.id,product.imgUrl,product.cost,product.quantity)">add to cart</a>
+        </li>
+	</ul>
+</div>

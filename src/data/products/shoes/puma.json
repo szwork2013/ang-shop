@@ -1,0 +1,58 @@
+[
+    {
+        "id": "puma-13_x1", 
+        "cost": 10, 
+        "quantity": 10,
+        "description":"short description about x1 model characteristics",
+        "imgUrl":"http://placehold.it/100x100"
+    }, 
+    {
+        "id": "puma-14_a1", 
+        "cost": 10, 
+        "quantity": 10,
+        "description":"short description about a1 model characteristics",
+        "imgUrl":"http://placehold.it/100x100"        
+    },
+    {
+        "id": "puma-13_x2", 
+        "cost": 20, 
+        "quantity": 20,
+        "description":"short description about x2 model characteristics",
+        "imgUrl":"http://placehold.it/100x100"
+    }, 
+    {
+        "id": "puma-14_a2", 
+        "cost": 20, 
+        "quantity": 20,
+        "description":"short description about a2 model characteristics",
+        "imgUrl":"http://placehold.it/100x100"        
+    },
+    {
+        "id": "puma-13_x3", 
+        "cost": 30, 
+        "quantity": 30,
+        "description":"short description about x3 model characteristics",
+        "imgUrl":"http://placehold.it/100x100"
+    }, 
+    {
+        "id": "puma-14_a3", 
+        "cost": 30, 
+        "quantity": 30,
+        "description":"short description about a3 model characteristics",
+        "imgUrl":"http://placehold.it/100x100"        
+    },
+    {
+        "id": "puma-13_x4", 
+        "cost": 40, 
+        "quantity": 40,
+        "description":"short description about x4 model characteristics",
+        "imgUrl":"http://placehold.it/100x100"
+    }, 
+    {
+        "id": "puma-14_a4", 
+        "cost": 40, 
+        "quantity": 40,
+        "description":"short description about a4 model characteristics",
+        "imgUrl":"http://placehold.it/100x100"        
+    }
+]

@@ -1,0 +1,16 @@
+*{margin: 0; padding: 0;}
+
+.contacts-header{
+	width: 100%;
+	height: 60px;
+	background-color: lightgrey;
+	border: 2px dashed #fff;
+	border-radius: 7px;
+	p{
+		color: blue;
+		text-align: center;
+		font-size: 40px;
+		width: 100%;
+		padding-top: 5px;
+	} 
+}
